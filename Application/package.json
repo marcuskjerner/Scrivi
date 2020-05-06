@@ -1,0 +1,75 @@
+{
+  "name": "scrivi",
+  "version": "1.0.0",
+  "description": "A Minimalistic but Powerful Markdown Edtior and Reader.",
+  "main": "main.js",
+  "build": {
+    "appId": "scrivi-editor",
+    "mac": {
+      "category": "Utilities"
+    }
+  },
+  "scripts": {
+    "dev": "webpack --watch",
+    "start": "electron .",
+    "build": "webpack && electron-builder",
+    "test": "mocha",
+    "test-react": "mocha ./src/test"
+  },
+  "repository": "https://github.com/1dv430/mk224bs-project",
+  "keywords": [
+    "Electron",
+    "react",
+    "markdown",
+    "editor"
+  ],
+  "author": "Marcus Kjerner",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel": "^6.23.0",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.5",
+    "chai": "^4.2.0",
+    "css-loader": "^2.1.0",
+    "electron": "^4.1.4",
+    "electron-builder": "^20.40.2",
+    "identity-obj-proxy": "^3.0.0",
+    "nodemon": "^1.18.11",
+    "react-hot-loader": "^4.7.0",
+    "react-test-renderer": "^16.8.6",
+    "react-testing-library": "^7.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "electron-react-devtools": "^0.5.3",
+    "electron-settings": "^3.2.0",
+    "highlight.js": "^9.15.6",
+    "jest-dom": "^3.1.4",
+    "markdown": "^0.5.0",
+    "marked": "^0.6.2",
+    "mocha": "^6.1.4",
+    "prism-js": "^1.0.0",
+    "pygmentize-bundled": "^2.3.0",
+    "react": "^16.8.2",
+    "react-ace": "^6.5.0",
+    "react-dom": "^16.8.2",
+    "react-router-dom": "^4.3.1",
+    "react-smooth-scrollbar": "^8.0.6",
+    "react-window-size-listener": "^1.2.3",
+    "reactn": "^1.0.0",
+    "robotjs": "^0.5.1",
+    "sinon": "^7.3.2",
+    "smooth-scrollbar": "^8.3.1",
+    "spectron": "^5.0.0",
+    "styled-components": "^4.2.0",
+    "yarn": "^1.13.0"
+  }
+}
