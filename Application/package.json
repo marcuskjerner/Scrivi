@@ -70,6 +70,6 @@
     "smooth-scrollbar": "^8.3.1",
     "spectron": "^5.0.0",
     "styled-components": "^4.2.0",
-    "yarn": "^1.13.0"
+    "yarn": "^1.22.0"
   }
 }
