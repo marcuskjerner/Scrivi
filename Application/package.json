@@ -54,7 +54,7 @@
     "highlight.js": "^9.15.6",
     "jest-dom": "^3.1.4",
     "markdown": "^0.5.0",
-    "marked": "^0.6.2",
+    "marked": "^4.0.10",
     "mocha": "^6.1.4",
     "prism-js": "^1.0.0",
     "pygmentize-bundled": "^2.3.0",
